@@ -181,7 +181,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     background: rgba(0, 0, 0, 0.9);
-                    z-index: 10;
+                    z-index: 6;
                 }
                 &.slide2:active::before {
                     content: url(images/lotr-logo.png);
@@ -189,7 +189,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     background: rgba(0, 0, 0, 0.9);
-                    z-index: 10;
+                    z-index: 6;
                 }
                 &.slide3:active::before {
                     content: url(images/starwars-logo.jpg);
@@ -197,7 +197,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     background: rgba(0, 0, 0, 0.9);
-                    z-index: 10;
+                    z-index: 6;
                 }
             
                 
@@ -223,6 +223,7 @@ body {
                 &:hover {
                     transform: scale(1.05);
                     transition: transform 0.3s;
+                    z-index: 10;
                 }
             }
             
