@@ -129,6 +129,12 @@ body {
                 margin-top: 2rem;
                 padding-left: 20px;
                 line-height: 3em;
+
+                a {
+                    text-decoration: none;
+                    color: var(--azul-escuro);
+                    font-weight: bold;
+                }
             }
         }
 
